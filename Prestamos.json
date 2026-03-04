@@ -1,0 +1,32 @@
+[
+    {
+        "id_prestamo": 1,
+        "id_usuario": 2,
+        "nombre_usuario": "Ana",
+        "apellido_usuario": "Celis",
+        "id_herramienta": 6,
+        "nombre_herramienta": "Pepito",
+        "estado_herramienta": "ACTIVA",
+        "cantidad tomada": 0,
+        "Fecha inicio": "2026-02-25",
+        "Fecha de entrega": "2026-03-02",
+        "Observaciones": "PORFAVOR USAR SIGUIENDO EL MANUAL",
+        "Estado solicitud": "activo",
+        "estado": "devuelto"
+    },
+    {
+        "id_prestamo": 2,
+        "id_usuario": 1,
+        "nombre_usuario": "Alejandro",
+        "apellido_usuario": "Solano",
+        "id_herramienta": 6,
+        "nombre_herramienta": "Pepito",
+        "estado_herramienta": "ACTIVA",
+        "cantidad tomada": 0,
+        "Fecha inicio": "2026-02-25",
+        "Fecha de entrega": "2026-02-28",
+        "Observaciones": "PORFAVOR USAR SIGUIENDO EL MANUAL",
+        "Estado solicitud": "activo",
+        "estado": "devuelto"
+    }
+]

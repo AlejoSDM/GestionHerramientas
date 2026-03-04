@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "Nombre usuario": "Alejandro",
+        "Apellido": "Solano",
+        "Telefono": 3223231,
+        "Direccion": "cra 8"
+    },
+    {
+        "id": 2,
+        "Nombre usuario": "Ana",
+        "Apellido": "Celis",
+        "Telefono": 32412874,
+        "Direccion": "Cristal"
+    }
+]
