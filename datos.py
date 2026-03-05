@@ -1,1 +1,1 @@
-print("GESTIONAR DATOS")
+print("gesiton funciones")
