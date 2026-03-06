@@ -22,18 +22,18 @@ El sistema permite mejorar la organización del inventario, controlar los prést
 
 # ✨ Funcionalidades principales
 
-- Registro y gestión de herramientas.
-- Registro y administración de usuarios.
-- Gestión de préstamos de herramientas.
-- Control automático del stock disponible.
-- Registro de fechas de préstamo y devolución.
-- Consultas y reportes sobre herramientas y usuarios.
-- Sistema de **registro de eventos (logs)**.
-- Almacenamiento de datos mediante **archivos JSON**.
+- Registro y gestión de herramientas.✅
+- Registro y administración de usuarios.✅
+- Gestión de préstamos de herramientas.✅
+- Control automático del stock disponible.✅
+- Registro de fechas de préstamo y devolución.✅
+- Consultas y reportes sobre herramientas y usuarios.✅
+- Sistema de **registro de eventos (logs)**.✅
+- Almacenamiento de datos mediante **archivos JSON**.✅
 
 ---
 
-# 🏗️ Estructura del proyecto
+# 🦖 Estructura del proyecto
 
 El proyecto está organizado en módulos que separan la lógica de cada funcionalidad:
 
@@ -57,3 +57,125 @@ Usuario.json # Datos de usuarios
 Prestamos.json # Datos de préstamos
 logs.json # Registro de eventos
 ```
+
+# Gestión de herramientas 🔨🔧
+
+El sistema permite registrar herramientas con información como:
+
+- ID
+- Nombre
+- Categoría
+- Cantidad disponible
+- Estado de la herramienta
+- Valor estimado
+
+Operaciones disponibles:
+
+- Crear herramientas
+- Listar herramientas
+- Buscar herramientas
+- Actualizar información
+- Eliminar herramientas
+
+---
+
+## Gestión de usuarios 👥
+
+Cada vecino registrado en el sistema incluye:
+
+- ID
+- Nombre
+- Teléfono
+- Dirección
+
+
+Operaciones disponibles:
+
+- Crear usuarios
+- Listar usuarios
+- Buscar usuarios
+- Actualizar información
+- Eliminar usuarios
+
+---
+
+## Gestión de préstamos 📦️
+
+Cada préstamo registra:
+
+- Usuario que solicita la herramienta
+- Herramienta prestada
+- Cantidad solicitada
+- Fecha de inicio
+- Fecha de devolución
+
+El sistema se encarga de:
+
+- Verificar disponibilidad de herramientas
+- Actualizar el stock automáticamente
+- Mantener historial de préstamos
+
+---
+
+# Consultas y reportes 📄
+
+El sistema permite realizar consultas como:
+
+- Herramientas con **stock bajo**.
+- Lista de **préstamos activos**.
+- Historial de préstamos de un usuario.
+- Información de herramientas prestadas.
+
+Estos reportes ayudan a la administración a mantener un control del inventario y del uso de las herramientas.
+
+---
+
+# Registro de eventos (Logs) 📈
+
+El sistema registra eventos importantes en el archivo **logs.json**, como por ejemplo:
+
+- Intentar prestar más herramientas de las disponibles.
+- Errores en el ingreso de datos.
+
+Esto permite llevar un seguimiento del funcionamiento del programa.
+
+---
+
+# Tecnologías utilizadas 📱
+
+| Herramienta | Uso |
+|---|---|
+| Python | Lenguaje principal |
+| JSON | Almacenamiento de datos |
+| Consola | Interfaz del sistema |
+
+
+---
+
+# Cómo ejecutar el proyecto
+
+### Clonar el repositorio
+
+```bash
+#clonar repositorio
+git clone https://github.com/AlejoSDM/GestionHerramientas.git
+cd GestionHerramientas
+```
+## 🧠 Autor 
+
+Este proyecto fue completamente diseñado, modelado y desarrollado por [ALEJANDRO SOLANO DURAN](alejosdml@gmail.com) como parte de su formacion en campusland
+
+---
+
+## 📫 Contacto
+
+¿Dudas o sugerencias? Puedes escribirme a:
+
+- 📧 alejosdml@gmail.com
+
+---
+
+## 📌 Licencia
+
+Este proyecto está disponible para fines educativos y de demostración. No usar en producción sin autorización.
+
